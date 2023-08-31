@@ -3,7 +3,7 @@ function Header(){
     return <header className="header">
         <div className="content">
             <div className="logo">
-                <img src="/img/vector.png" alt="people"/>
+                <img src="/img/Vector.png" alt="people"/>
                 <h2>ORG</h2>
             </div>
             <div className="info">
