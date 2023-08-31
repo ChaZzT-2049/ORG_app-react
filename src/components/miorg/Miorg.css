@@ -1,0 +1,26 @@
+.org__section{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.org__section h3{
+    color: #6278F7;
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    border-bottom: 5px solid #6278F7;
+    margin: 0;
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+    .org__section{
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .org__section h3{
+        font-size: 1.5rem;
+        padding-bottom: .5rem;
+    }
+}
